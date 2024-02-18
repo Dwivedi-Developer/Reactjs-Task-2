@@ -15,7 +15,7 @@ const App = () => {
     fetch(API_URL)
       .then((response) => response.json())
       .then((data) => {
-        setUsers(data);
+        setUsers(data.reverse());
         setLoading(false);
       })
       .catch((error) => {
