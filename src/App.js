@@ -57,7 +57,7 @@ const App = () => {
         )}
       </div>
       <div className="xl:w-[25vw] sm:w-[70vw] right ">
-      <h1 className=' detail text-center sticky top-0 w-full p-2 bg-white text-3xl text-black font-semibold'>Users' Detail</h1>
+      <h1 className='max-[640px]:w-[190px] detail text-center sticky top-0 w-full p-2 bg-white text-3xl text-black font-semibold'>Users' Detail</h1>
         {selectedUser && (
           <div className='mob  bg-gray-300 w-full p-4 flex flex-col items-center sticky top-[52.5px]'>
             <img
