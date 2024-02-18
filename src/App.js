@@ -34,7 +34,7 @@ const App = () => {
       <div className= " left w-[75vw] flex  flex-col " >
       <h1 className='p-2 text-center text-3xl text-black font-semibold sticky top-0 w-full bg-white'>Users' List</h1>
         {loading && <div className='w-[100vw] items-center flex justify-center h-[100vh] '><ClipLoader color='#FF0000' /></div>}
-        {!loading && error && <p className="text-red-500">{error}</p>}
+        {!loading && error && <p className="text-4xl text-red-500 w-[100vw] items-center flex justify-center h-[90vh]">{error}! Check the Internet Connectivity</p>}
         {!loading && !error && users.length === 0 && <p>No data to show</p>}
         {!loading && !error && users.length > 0 && (
           
